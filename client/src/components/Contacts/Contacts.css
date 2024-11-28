@@ -1,0 +1,27 @@
+
+
+.contacts{
+    padding: 0 30px;
+}
+
+.contacts h1{
+    text-align: center;
+}
+
+
+
+.contactdetails{
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon{
+    font-size: 24px;
+    margin-left: 20px;
+    transition: transform .3s ease-in-out;
+}
+
+.contact-icon:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}

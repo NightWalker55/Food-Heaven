@@ -1,0 +1,15 @@
+.App{
+    width: 90vw;
+    height: 100vh;
+    max-width: 100%;
+    padding: 0 20px;
+    margin:0 auto;
+}
+
+@media (max-width: 600px) {
+    .App {
+      width: 95%;
+      padding: 10px;
+      overflow-x: hidden;
+    }
+  }

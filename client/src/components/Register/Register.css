@@ -1,0 +1,50 @@
+
+.register{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.register-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.register h1,h2{
+    text-align: center;
+}
+
+.register-input{
+    width: 70%;
+    height: 30px;
+    outline: none;
+    margin: 15px 0;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.register button{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #780000;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform .3s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:600px) {
+    .register{
+        width: 95%;
+    }
+}
